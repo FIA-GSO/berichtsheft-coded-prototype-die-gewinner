@@ -1,19 +1,36 @@
-/* styles.css */
-
 :root {
     --primary-color: #004b88;
     --secondary-color: #d2ddea;
-    --background-color: #f4f6f8;
+    --background-color: #ffff;
     --text-color: #333;
     --font-family: Arial, sans-serif;
 }
 
-/* Anwenden der Variablen */
 body {
     background-color: var(--background-color);
     color: var(--text-color);
 }
 
+.accordion-button {
+    padding: 0.75rem !important;
+}
+
+.accordion-button:after {
+    order: -1;
+    margin-left: 0;
+    margin-right:0.5em;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    border-radius: 0.375rem;
+}
+
+.accordion-button i {
+    transition: transform 0.2s;
+}
 
 .btn-primary {
     background-color: var(--primary-color);
