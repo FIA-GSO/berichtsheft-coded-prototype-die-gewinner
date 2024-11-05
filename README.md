@@ -6,6 +6,9 @@
 ### Gesamtübersicht
 ![img.png](screenshots/img.png)
 
+### Desktop Gesamtübersicht
+![img.png](screenshots/figma_desktop.PNG)
+
 ### Wochenübersicht
 ![img.png](screenshots/uebersicht.png)
 
